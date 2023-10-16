@@ -1,0 +1,80 @@
+.admin_contactus_new_notice_container {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.admin_contactus_new_notice_container_old {
+  max-height: 500px;
+}
+
+.contact_noticefaction {
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.login_main_form {
+  height: 100vh;
+  width: 100vw;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_data_container {
+  height: auto;
+  width: 400px;
+  padding: 20px 20px 50px;
+}
+
+.login_input_height {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #cad0da;
+  outline: none;
+}
+
+.login_button_color {
+  background-color: #75bf0d;
+  color: white;
+  border: 1px solid #75bf0d;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.forgot_password {
+  cursor: pointer;
+  float: right;
+  text-decoration: underline;
+}
+
+.noticeIcon {
+  min-height: 15px;
+  min-width: 15px;
+}
+
+.search-admin_contacts {
+  min-height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.power {
+  color: red;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.error-message {
+  background-color: #ffcccb;
+  color: red;
+}
